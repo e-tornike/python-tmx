@@ -8,8 +8,8 @@ from typing import (
     Literal,
     MutableSequence,
     Optional,
-    override,
 )
+from typing_extensions import override
 
 from lxml.etree import Element, ElementTree, _Element, _ElementTree, tostring
 
